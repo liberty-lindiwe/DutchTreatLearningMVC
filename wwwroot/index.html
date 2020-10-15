@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href = "css/site.css" rel="stylesheet" />
+    <title>Dutch Treat</title>
+</head>
+<body>
+    <h1>Dutch Treat</h1>
+    <div class="product-info">
+        <img src="/img/VanGogh.jpg" />
+        <h3>Mug</h3>
+        <ul class="product-props">
+            <li>Price: $9.99</li>
+            <li>Artist: Van Gogh</li>
+            <li>Title:</li>
+            <li>Desription:Self-portrait</li>
+        </ul>
+
+        <button id="buyButton">Buy</button>
+    </div>
+    <!--When there is a space in btween class names or elemnts that is to say that the following element or class is a child.Jowever in a case there is a full stop we then mean to say that the specified class name is only for that element it is attached to. It is not really a child-->
+
+    <div id="theForm">
+        <!-- Forms are a special element that says that we want to get information from a user -->
+        <form>
+            <!-- Labels are a simple way to display data next to an input-->
+            <label>Your Name:</label>
+            <br />
+            <input />
+            <br />
+            <label>Email:</label>
+            <br />
+            <!--This is for email inputs we have one for password inputs too-->
+            <input type="email" />
+            <br />
+            <label>Subject:</label>
+            <br />
+            <!--this is the default input type-->
+            <input type="text" />
+            <br />
+            <br />
+            <label>Message</label>
+            <br />
+            <!-- text area is more of an input except that you can type in more than one line-->
+            <textarea rows="4"></textarea>
+
+            <br />
+            <!-- value is the content of the text belonging to the input. It is actually a button-->
+            <input type="submit" value="Send Message" />
+        </form>
+
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
